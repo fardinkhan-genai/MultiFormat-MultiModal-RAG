@@ -1,0 +1,52 @@
+# Environment variables
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Vector databases / local storage
+chroma_db/
+chroma/
+vectorstore/
+*.db
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Generated media
+audio/
+frames/
+extracted_frames/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large media/data files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# Local datasets
+data/
+Sample_Data/
