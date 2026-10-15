@@ -423,59 +423,11 @@ This project demonstrates an end-to-end implementation of:
 
 ------------------------------------------------------------------------
 
-## 💡 Example Questions
-
-Depending on the uploaded knowledge base:
-
-``` text
-What is Machine Learning?
-
-Summarize the main points in this document.
-
-What does this architecture diagram show?
-
-What did the speaker discuss about transformers?
-
-What are the important findings in the report?
-
-Which source contains information about this topic?
-```
-
-------------------------------------------------------------------------
-
-## 🚧 Current Limitations
-
--   Large datasets may require more optimized ingestion.
--   Video frame sampling is currently interval-based.
--   Audio/video timestamp handling can be further refined.
--   Tabular data currently participates in the searchable RAG pipeline
-    rather than a dedicated SQL/Pandas reasoning agent.
--   Authentication and multi-user deployment are outside the current
-    scope.
--   The project is primarily designed as a local/portfolio application.
-
-------------------------------------------------------------------------
-
-## 🔮 Future Improvements
-
-Possible future extensions:
-
--   Timestamp-aware video retrieval
--   Dedicated table analytics
--   Advanced multimodal retrieval
--   RAG evaluation
--   Response streaming
--   Cloud deployment
--   Authentication
--   Production monitoring and tracing
-
-------------------------------------------------------------------------
-
 ## 👨‍💻 Author
 
 **Fardin Khan**
 
-Data Science & AI Engineer Developer
+Data Science & AI Engineer
 
 Focus areas:
 
